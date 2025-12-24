@@ -1,0 +1,17 @@
+{
+  "name": "clio-ai",
+  "version": "0.1.0",
+  "description": "AI CLI tool with file system access",
+  "bin": {
+    "clio-ai": "./bin/clio-ai"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "files": [
+    "bin",
+    "scripts"
+  ],
+  "os": ["darwin", "linux", "win32"],
+  "cpu": ["x64", "arm64"]
+}

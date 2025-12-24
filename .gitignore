@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.local
+venv/
+.venv/
+
+# Rust
+/target/
+Cargo.lock
+
+# npm
+npm/node_modules/
+npm/bin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Config with secrets
+config.toml
