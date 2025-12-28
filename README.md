@@ -87,6 +87,23 @@ If you get this error, Rust/Cargo isn't in your PATH:
 
 ### Build Issues
 
-- Ensure you're in the project directory: `/path/to/clio-ai`
-- Check Rust installation: `rustc --version`
-- Update Rust: `rustup update`
+#### 1. "feature `edition2024` is required" or "package requires rustc X.XX"
+If you see errors like `feature edition2024 is required` or `package ... requires rustc 1.82`, your Rust version is too old.
+
+**Fix:** Update Rust using rustup:
+```bash
+rustup update
+```
+*Note: If you installed Rust via `apt` or `snap`, you may need to uninstall those system versions first and install `rustup`.*
+
+#### 2. "Could not find directory of OpenSSL installation"
+If you see errors related to `openssl-sys`, `pkg-config`, or `make`, you are missing development libraries.
+
+**Fix (Ubuntu/Debian/WSL):**
+```bash
+sudo apt update && sudo apt install pkg-config libssl-dev
+```
+
+#### 3. General Checks
+- Ensure you're in the project directory.
+- Check Rust version: `rustc --version` (should be 1.83+).

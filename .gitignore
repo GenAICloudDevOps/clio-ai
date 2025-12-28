@@ -6,7 +6,6 @@ venv/
 
 # Rust
 /target/
-Cargo.lock
 
 # npm
 npm/node_modules/
