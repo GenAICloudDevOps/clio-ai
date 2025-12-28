@@ -4,8 +4,14 @@ A local-first AI CLI that can read and edit your project files, with support for
 
 ## Screenshots
 
-![cli tool clio-ai](1.png)
-![models](2.png)
+clio-ai cli tool
+![clio-ai cli tool](0.png)
+
+creating a streamlit app
+![creating a streamlit app](1.png)
+
+Displaying models using /models
+![Displaying models using /models](2.png)
 
 ## Prerequisites
 
