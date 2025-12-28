@@ -2,6 +2,11 @@
 
 A local-first AI CLI that can read and edit your project files, with support for Gemini, Groq, and Ollama models.
 
+## Screenshots
+
+![cli tool clio-ai](1.png)
+![models](2.png)
+
 ## Prerequisites
 
 - Rust and Cargo installed ([rustup.rs](https://rustup.rs/))
